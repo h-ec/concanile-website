@@ -134,8 +134,12 @@
     
     position: absolute;
 
-    left: 46.5%;
-    top: 96%;
+    top: 97%;
+    left: 50%;
+
+    font-family: var(--font);
+
+    transform: translateX(-50%);
 }
 
 .support-button {
