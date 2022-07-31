@@ -156,3 +156,97 @@
     left: 10%;
 
 }
+
+
+.body1 {
+    
+}
+
+#support {
+    font-size: 40px;
+    
+    background: var(--gray-color);
+
+    border: 2.5px solid var(--white-color);
+
+    width: 50%;
+    height: 6.5%;
+
+    position: absolute;
+
+    bottom: 70%;
+    left: 15.2%;
+}
+
+#support-problem {
+    font-size: 40px;
+    
+    border: 2.5px solid var(--white-color);
+
+    background: var(--gray-color);
+
+    color: var(--white-color);
+
+    width: 50%;
+    height: 35%;
+
+    position: absolute;
+
+    bottom: 30%;
+    left: 15.2%;
+
+}
+
+.submit {
+    background: skyblue;
+
+    border: 2.5px solid var(--white-color);
+    
+    font-size: 45px;
+
+    position: absolute;
+    
+    font-family: var(--font);
+
+    bottom: 20%;
+
+    left: 60%;
+}
+
+.thx {
+    font-family: var(--font);
+
+    font-size: 50px;
+
+    position: absolute;
+
+    bottom: 47%;
+
+    left: 35.5%;
+}
+
+.thx1 {
+    font-family: var(--font);
+
+    font-size: 50px;
+
+    position: absolute;
+
+    bottom: 54%;
+    
+    left: 30%;
+}
+
+.back{
+    font-size: 43px;
+
+    background: none;
+
+    border: none;
+
+    position: absolute;
+
+    bottom: 38%;
+
+    left: 46.5%;
+}
