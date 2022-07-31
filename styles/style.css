@@ -88,6 +88,33 @@
     color: var(--dark-color);
 }
 
+.discord-icon
+{
+    bottom: 12px;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 64px;
+    padding: 12px;
+
+    border-radius: 20px;
+
+    position: absolute;
+
+    transition: all 196ms ease-in-out;
+
+    -webkit-user-drag: none;
+}
+
+.discord-icon:hover
+{
+    border-radius: 30px;
+
+    background: var(--darker-color);
+}
+
 @media screen and (max-width: 720px)  {
     .button-holder
     {
