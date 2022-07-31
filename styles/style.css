@@ -90,7 +90,7 @@
 
 .discord-icon
 {
-    bottom: 12px;
+    bottom: 40px;
 
     left: 50%;
 
@@ -127,4 +127,32 @@
     {
         margin-bottom: 4px;
     }
+}
+
+.about {
+    font-family: var(--font); 
+    
+    position: absolute;
+
+    left: 46.5%;
+    top: 96%;
+}
+
+.support-button {
+    background: none;
+
+    color: aliceblue;
+
+    font-size: 25px;
+
+    size: 50px;
+
+    border: none;
+
+    position: absolute;
+
+    bottom: 95.5%;
+
+    left: 10%;
+
 }
