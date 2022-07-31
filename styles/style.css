@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400&display=swap');
+
+:root
+{
+    --white-color: hsl(0, 0%, 97%);
+    --dark-color: hsl(210, 4%, 11%);
+    --darker-color: hsl(120, 3%, 7%);
+    --gray-color: hsl(214, 7%, 21%);
+    --purple-color: hsl(260, 54%, 52%);
+    --blue-color: hsl(208, 76%, 53%);
+
+    --font: 'Albert Sans', sans-serif;
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.web-mount
+{
+    width: 100vw;
+    height: 100vh;
+
+    top: 0;
+    left: 0;
+
+    position: absolute;
+}
+
+.dark-theme
+{
+    background: var(--dark-color);
+    color: var(--white-color);
+}
+
+.button-holder
+{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+}
+
+.download-button
+{
+    width: 14rem;
+    padding: 8px;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    font-family: var(--font);
+
+    background-color: transparent;
+
+    outline: none;
+
+    border: 1px solid var(--white-color);
+
+    color: var(--white-color);
+
+    font-size: 16px;
+
+    margin: 0 4px;
+
+    display: flex;
+
+    transition: all 196ms ease-in-out;
+}
+
+.download-button:hover
+{
+    background-color: var(--white-color);
+    color: var(--dark-color);
+}
+
+@media screen and (max-width: 720px)  {
+    .button-holder
+    {
+        flex-direction: column;
+
+        transition: all 196ms ease-in-out;
+    }
+
+    .download-button
+    {
+        margin-bottom: 4px;
+    }
+}
